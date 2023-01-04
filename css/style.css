@@ -6,7 +6,10 @@
     font-family: arial,sans-serif;
     font-size: 13px;
   }
-
+  .headerli i {
+    width: 35px;
+    height: 35px;
+  }
   .headerli a {
     display: block;
     color: black;
