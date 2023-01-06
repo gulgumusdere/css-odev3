@@ -1,4 +1,4 @@
-.header {
+/* .header {
     list-style-type: none;
     margin: 10px;
     overflow: hidden;
@@ -171,4 +171,156 @@
   
   .footerli a:hover {
     text-decoration: underline;
+  } */
+*{ 
+    margin: 0;
+    padding: 0;
+}
+/*Başlık Kısmı*/
+  .header {
+
+    width: 1450px;
+    height: 100px;
   }
+  .header .img-icon img{
+    border-radius: 100%;
+    float: right;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .header .icon img {
+    width: 35px;
+    height: 35px;
+    /* border-radius: 100%; */
+    float: right;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+  .header .link a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin: 5px;
+  }
+
+/*logo ve Arama Kısmı*/
+.section{ 
+    width: 1450px;
+    height: 350px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 5px;
+    padding: 25px;
+}
+.section .logo {
+       
+    width: 1000px;
+    
+}
+.section .search {
+    width: 550px;
+    background: #fff
+    margin-top: 5px;
+    margin-left: 200px;
+    border: 1px solid #dfe1e5
+    border-style: solid;
+    box-shadow: none;
+    z-index: 3;
+    /* border-width: 3px; */
+    border-color: rgb(97, 96, 96);
+    
+    padding: 5px;
+    border-radius: 50px;
+    
+}
+.section .search:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+.section .search .textbox {
+    width: 480px;
+    height: 25px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+
+}
+.section .search .voice-search img {
+    width: 25px;
+    height: 25px;
+    
+}
+.section .buttons {
+    height: 36px;
+    width: 900px;
+    display: block;
+    justify-content: center;
+
+    
+}
+.section .buttons a {
+    
+    height: 36px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color:#f2f2f2;
+    border: 15px bold  #0b0a0a;
+    
+    z-index: 3;
+    padding: 10px;
+    margin-right: 70px;
+    margin-left: 1px;
+     
+  } 
+  .section .buttons .btn1{
+    margin-left: 100px;
+  }
+  .section .buttons .btn1:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+  .section .buttons .btn2 {
+    margin-right: 30px;
+   
+  }
+  .section .buttons .btn2:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+
+  /*Footer Kısmı*/
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #e2e5e9;
+  }
+  
+  .footerli {
+    float: left;
+    list-style: none;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
